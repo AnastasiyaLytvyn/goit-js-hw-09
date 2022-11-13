@@ -1,6 +1,6 @@
 import Notiflix from 'notiflix';
 
-getEl = selector => document.querySelector(selector);
+let getEl = selector => document.querySelector(selector);
 getEl('.form').addEventListener('submit', onSubmit);
 
 function createPromise(position, delay) {
